@@ -11,7 +11,7 @@ Shader "Custom/Surface/Lambert"
 		_Alpha("Alpha", Range(0, 1)) = 1
 	}
 
-		SubShader
+	SubShader
 	{
 		Tags { "RenderType" = "Opaque" }
 		LOD 200
@@ -47,7 +47,7 @@ Shader "Custom/Surface/Lambert"
 			// alpha:fadeを指定しないと効果なし
 			o.Alpha = _Alpha;
 		}
-	ENDCG
+		ENDCG
 	}
 
 	FallBack "Diffuse"
