@@ -13,7 +13,8 @@ Shader "Custom/Surface/Lambert"
 
 	SubShader
 	{
-		Tags { "RenderType" = "Opaque" }
+		// Alphaを使用するので描画順をTransparentに指定する
+		Tags { "Queue" = "Transparent" }
 		LOD 200
 
 		CGPROGRAM
