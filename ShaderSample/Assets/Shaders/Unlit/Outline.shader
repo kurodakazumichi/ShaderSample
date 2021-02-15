@@ -6,7 +6,7 @@ Shader "Custom/Unlit/Outline"
 {
 	Properties
 	{
-		_LineColor("LineColro", Color) = (0.1, 0.1, 0.1, 1)
+		_LineColor("LineColor", Color) = (0.1, 0.1, 0.1, 1)
 	}
 
 	SubShader
