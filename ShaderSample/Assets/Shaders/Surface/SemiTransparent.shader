@@ -2,7 +2,7 @@
 // 12 SemiTransparent
 // 半透明の奥側まで描画されてしまう問題を解決したシェーダー
 //-----------------------------------------------------------------------------
-Shader "Custom/SemiTransparent"
+Shader "Custom/Surface/SemiTransparent"
 {
   Properties
   {
