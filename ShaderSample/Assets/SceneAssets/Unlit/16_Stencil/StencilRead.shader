@@ -14,7 +14,6 @@ Shader "Custom/Unlit/StencilRead"
 		Tags {
 			"RenderType" = "Transparent"
 			"Queue" = "Transparent"
-			"IgnoreProjector" = "True"
 		}
 		LOD 100
 
